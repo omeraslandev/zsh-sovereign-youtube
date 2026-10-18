@@ -8,7 +8,7 @@ Ağır web arayüzleri, algoritma manipülasyonları, yüksek RAM tüketimi (Ele
 
 ## ⚡ Öne Çıkan Özellikler
 
-* **Maksimum Kaynak Verimliliği:** FreeTube/Electron gibi 600–800 MB RAM harcayan alternatifler yerine, yalnızca 40–50 MB RAM tüketen GTK tabanlı `liferea` ve `mpv` motoru[cite: 12].
+* **Maksimum Kaynak Verimliliği:** FreeTube/Electron gibi 600–800 MB RAM harcayan alternatifler yerine, yalnızca 40–50 MB RAM tüketen GTK tabanlı `liferea` ve `mpv` motoru.
 * **Terminal Tabanlı Etkileşim:** `fzf` entegrasyonu ile terminalden anında arama yapma (`yt`) ve arka planda sadece ses/podcast oynatma (`yta`).
 * **Tek Tuşla RSS Aboneliği:** `@kullaniciadi` veya URL üzerinden kanal kimliğini saniyeler içinde çözüp RSS akışına dahil eden `ytsub` fonksiyonu.
 * **Donanım Hızlandırma & Codec Optimizasyonu (RCA):** `mpv` üzerindeki %210 CPU yükü ve bellek şişmesi sorununun kök neden analizi yapılarak VP9/H.264 codec önceliği ve RAM kotası ile çözülmesi.
