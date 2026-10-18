@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# ==============================================================================
+# File        : scripts/rss-opener
+# Description : Route YouTube links to mpv and external links to web browser
+# Execution   : chmod +x scripts/rss-opener
+# ==============================================================================
+
+TARGET="$1"
+
+if [ -z "$TARGET" ]; then
+    echo "Kullanım: rss-opener <URL>"
+    exit 1
+fi
+
+# YouTube video veya kanal bağlantısı kontrolü
+if [[ "$TARGET" =~ (youtube\.com|youtu\.be) ]]; then
+    # Donanım hızlandırmalı mpv oynatıcısını arka planda tetikle[cite: 12]
+    mpv "$TARGET" >/dev/null 2>&1 &
+else
+    # Harici bağlantıları sistemin varsayılan tarayıcısında aç[cite: 12]
+    xdg-open "$TARGET" >/dev/null 2>&1 &
+fi
