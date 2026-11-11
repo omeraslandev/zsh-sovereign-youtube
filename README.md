@@ -53,7 +53,7 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 ### 2. Reponun Klonlanması ve Entegrasyon
 
 ```bash
-git clone [https://github.com/kullaniciadi/zsh-sovereign-youtube.git](https://github.com/kullaniciadi/zsh-sovereign-youtube.git)
+git clone [https://github.com/omeraslandev/zsh-sovereign-youtube.git](https://github.com/omeraslandev/zsh-sovereign-youtube.git)
 cd zsh-sovereign-youtube
 
 # 1. Yönlendirici betiği çalıştırılabilir yapın ve yerel ortama taşıyın
